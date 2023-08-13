@@ -1,6 +1,6 @@
 
 # random initizlized if inputFileName = None
-inputFileName = "./input.txt"
+inputFileName = "./input.png"
 
 # output directory for path images and result txt
 outputDir = "./outputs/"

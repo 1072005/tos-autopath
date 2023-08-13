@@ -26,5 +26,5 @@ with open(os.path.join(cfg.outputDir, "output.txt"), "w") as fout:
     fout.write( "startColIdx={}\n".format(initBoard.currentPosition[1]) )
     for move in finalMoveList:
         fout.write( "{} ".format(move) )
-    fout.write( "\nstones={}\ncombo={}\nsteps={}\n".format( stones, combo, len(finalMoveList) ) )
+    # fout.write( "\nstones={}\ncombo={}\nsteps={}\n".format( stones, combo, len(finalMoveList) ) )
 
